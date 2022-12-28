@@ -13,6 +13,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
+        // 全局导入main.scss 各组件style内可直接只用
         additionalData: '@import "@/style/main.scss";',
       },
     },
