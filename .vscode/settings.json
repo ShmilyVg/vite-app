@@ -1,0 +1,71 @@
+{
+    "vetur.validation.template": false,
+    "json.maxItemsComputed": 10000,
+    "files.autoSave": "off",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+  
+    "git.confirmSync": false,
+    "prettier.arrowParens": "avoid",
+    "prettier.endOfLine": "auto",
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "vscode-icons",
+  
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "eslint.codeAction.showDocumentation": {
+      "enable": true
+    },
+    // 添加 vue 支持
+    "eslint.validate": ["javascript", "javascriptreact", "html", "vue"],
+  
+    // 保存文件时eslint自动修复
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "eslint.autoFixOnSave": true
+    },
+  
+    // 保存文件时eslint自动格式化
+    // "editor.formatOnPaste": true, // 自动格式化粘贴的内容
+    // "editor.formatOnType": true, // 键入一行后自动格式化该行
+    // "editor.formatOnSave": true, // 保存时格式化代码
+    // "editor.formatOnSaveMode": "file", // 保存时格式化整个文件
+  
+    // 添加其他文件默认格式化程序
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+      "*.json": "jsonc"
+    },
+    "prettier.printWidth": 135
+  }
+  

@@ -6,7 +6,7 @@ export const useUserStore = defineStore({
     name: '超级管理员',
   }),
   getters: {
-    nameLength: state => state.name.length,
+    nameLength: (state) => state.name.length,
   },
   actions: {
     getNameInfo() {

@@ -7,11 +7,17 @@ module.exports = {
   semi: false,
   overrides: [
     {
-      files: "*.json",
+      files: '*.json',
       options: {
         printWidth: 200,
       },
     },
+    {
+      files: ['*.html'],
+      options: {
+        tabWidth: 2,
+      },
+    },
   ],
-  arrowParens: "always",
-};
+  arrowParens: 'always',
+}

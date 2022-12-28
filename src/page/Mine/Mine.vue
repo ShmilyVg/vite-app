@@ -2,7 +2,7 @@
 import { useUserStore } from '@/store/main/user.js'
 const userStore = useUserStore()
 
-const updateName = name => {
+const updateName = (name) => {
   // $patch 修改 store 中的数据
   userStore.$patch({
     name,

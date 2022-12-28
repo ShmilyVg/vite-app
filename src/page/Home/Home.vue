@@ -6,13 +6,14 @@ const pageName = ref('Home')
 
 const doLogin = async () => {
   const res = await login()
+  console.log(res)
 }
 </script>
 
 <template>
   <div>
     <h3 @click="doLogin">{{ pageName }}</h3>
-    <el-button type="primary">{{pageName}}</el-button>
+    <el-button type="primary">{{ pageName }}</el-button>
     <a href="https://vuejs.org/" target="_blank">
       <img src="@/assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
